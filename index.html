@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="تعرّف على ديبو، علامة أزياء رجالية مصرية تقدم أسلوبًا يوميًا بسيطًا ومدروسًا."
+    />
+    <meta name="theme-color" content="#eeeae2" />
+    <title>ديبو — البساطة بشكل أفضل</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="العودة إلى ديبو">diboo<span>.</span></a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="فتح القائمة"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-navigation" id="site-navigation" aria-label="القائمة الرئيسية">
+        <a href="#philosophy" data-i18n="navApproach">فكرتنا</a>
+        <a href="#collection" data-i18n="navCollection">أسلوبنا</a>
+        <a href="#story" data-i18n="navStory">حكاية ديبو</a>
+      </nav>
+
+      <button class="language-toggle" type="button" aria-label="Switch to English">English</button>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">أزياء رجالية عصرية بروح مصرية</p>
+          <h1 id="hero-title" data-i18n="heroTitle">أبسط.<br />وأجمل <em>بكتير.</em></h1>
+          <p class="hero-description" data-i18n="heroDescription">
+            اللبس مش لازم يكون معقد. ديبو علامة أزياء رجالية مصرية بتقدم أسلوب
+            بسيط ومدروس يناسب كل يوم.
+          </p>
+          <a class="text-link" href="#philosophy"><span data-i18n="heroLink">اكتشف فكرتنا</span> <span aria-hidden="true">↙</span></a>
+          <span class="hero-index" aria-hidden="true" data-i18n="heroIndex">٠٠١ — من مصر، لكل يوم</span>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&amp;fit=crop&amp;w=1300&amp;q=85"
+            alt="رجل يرتدي إطلالة يومية مريحة بألوان هادئة"
+            data-i18n-alt="heroImageAlt"
+            fetchpriority="high"
+          />
+          <span class="image-caption" data-i18n="heroCaption">لبس مريح. يوم أحلى. ببساطة.</span>
+          <span class="image-marker" aria-hidden="true">D / 01</span>
+        </div>
+
+        <a class="scroll-cue" href="#philosophy" aria-label="اكتشف فكرتنا">
+          <span></span><span data-i18n="scrollCue">كمّل واكتشف</span>
+        </a>
+      </section>
+
+      <section class="intro section-shell" id="philosophy">
+        <p class="eyebrow" data-i18n="philosophyEyebrow">كلمتين عن اللبس</p>
+        <div class="intro-content">
+          <h2 data-i18n="philosophyTitle">ستايل حلو<br />مش محتاج <em>مجهود.</em></h2>
+          <div class="intro-aside">
+            <p data-i18n="philosophyTextOne">
+              القميص اللي بتمد إيدك عليه من غير تفكير. القَصّة اللي تحس إنها
+              شبهك. وقطع تفضل معاك وتبقى جزء من يومك.
+            </p>
+            <p data-i18n="philosophyTextTwo">
+              إحنا مؤمنين إن أحسن دولاب مش أكبر دولاب، هو اللي كل حاجة فيه ليها
+              معنى ومكان.
+            </p>
+            <span class="handwritten-note" data-i18n="philosophyNote">دي هي فكرة ديبو.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection section-shell" id="collection">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="collectionEyebrow">من هنا، ولكل يوم</p>
+            <h2 data-i18n="collectionTitle">خليك <em>على طبيعتك.</em></h2>
+          </div>
+          <p data-i18n="collectionDescription">طبقات مريحة. خامات تحبها.<br />وتفاصيل تفرق في كل يوم.</p>
+        </div>
+
+        <div class="editorial-grid">
+          <figure class="editorial-card editorial-card-tall">
+            <img
+              src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+              alt="إطلالة يومية بألوان دافئة وطبيعية"
+              data-i18n-alt="imageAltOne"
+              loading="lazy"
+            />
+            <figcaption><span>٠١</span> <span data-i18n="cardOne">ليومك، زي ما هو</span></figcaption>
+          </figure>
+          <figure class="editorial-card editorial-card-short">
+            <img
+              src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+              alt="أسلوب مريح يعبر عن شخصية صاحبه"
+              data-i18n-alt="imageAltTwo"
+              loading="lazy"
+            />
+            <figcaption><span>٠٢</span> <span data-i18n="cardTwo">ستايلك إنت، دايمًا</span></figcaption>
+          </figure>
+          <figure class="editorial-card editorial-card-wide">
+            <img
+              src="https://images.unsplash.com/photo-1488161628813-04466f872be2?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+              alt="إطلالة بسيطة تناسب يومًا هادئًا"
+              data-i18n-alt="imageAltThree"
+              loading="lazy"
+            />
+            <figcaption><span>٠٣</span> <span data-i18n="cardThree">على طبيعتك، من غير تكلف</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="manifesto" id="story">
+        <div class="manifesto-image">
+          <img
+            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&amp;fit=crop&amp;w=1300&amp;q=85"
+            alt="إطلالة مريحة تعبر عن ثقة وأسلوب شخصي"
+            data-i18n-alt="storyImageAlt"
+            loading="lazy"
+          />
+          <span data-i18n="storyCaption">لأي مكان ياخدك يومك.</span>
+        </div>
+        <div class="manifesto-copy">
+          <p class="eyebrow" data-i18n="storyEyebrow">حكاية مصرية بطابع مختلف</p>
+          <h2 data-i18n="storyTitle">ديبو مصرية.<br />وعلى مزاج <em>حياتك.</em></h2>
+          <p class="manifesto-body" data-i18n="storyBody">
+            ديبو علامة أزياء رجالية مصرية بفكرة بسيطة: لبسك اليومي لازم يبقى
+            شبهك. استلهمنا روح الحياة في مصر ودفاها وحيويتها، وقدمنا أسلوب
+            بسيط ومريح تلبسه على طريقتك.
+          </p>
+          <p class="manifesto-signoff"><span data-i18n="signoff">مبسوطين إنك هنا.</span><br /><span data-i18n="signoffTeam">— فريق ديبو</span></p>
+        </div>
+      </section>
+
+      <section class="closing-note">
+        <p class="eyebrow" data-i18n="closingEyebrow">من مصر، وبأسلوب يشبهك</p>
+        <h2 data-i18n="closingTitle">البس اللي يعبّر <em>عنك.</em></h2>
+        <a class="text-link" href="#top"><span data-i18n="backToTop">ارجع للبداية</span> <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#top" aria-label="العودة إلى ديبو">diboo<span>.</span></a>
+      <p data-i18n="footerTagline">بساطة أكتر. وأسلوب يشبهك.</p>
+      <span>© <span id="current-year"></span> Diboo</span>
+    </footer>
+  </body>
+</html>
